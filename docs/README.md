@@ -45,5 +45,50 @@ Parameters:
   - String: String
 
 Example:
-`testament.ASCII('TEST')`
+`testament.ASCII('#0095a4', 'TEST')`
 
+# ASCII
+
+ASCII animation is done by `ASCII()` function and show ASCII colored text.
+
+Parameters:
+  - hex: String
+  - String: String
+
+Example:
+`testament.ASCII('#0095a4', 'TEST')`
+
+
+# animateSuccess
+
+animateSuccess animation is done by `animateSuccess()` function and show a green tick and text.
+
+Parameters:
+  - String: String
+
+Example:
+`testament.animateSuccess('TEST')`
+
+
+# animateFail
+
+animateFail animation is done by `animateFail()` function and show a red tick and text.
+
+Parameters:
+  - String: String
+
+Example:
+`testament.animateFail('TEST')`
+
+
+# error
+
+error animation is done by `error()` function and show a error tag and text.
+
+Parameters:
+  - String: String
+
+Example:
+`testament.error('TEST')`
+
+If you using error handlers, you can use this function instead of `console.log`.
